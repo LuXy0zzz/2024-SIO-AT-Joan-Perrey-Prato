@@ -35,7 +35,7 @@
     <div class="container">
         <h1>Erreur - Vous n'êtes pas connecté</h1>
         <p><strong>Vous devez être connecté pour accéder à cette page.</strong></p>
-        <p><a href="http://localhost//index.php">Retour à la page d'accueil</a></p>
+        <p><a href="http://localhost/PROJET-SIO-2A/2024-SIO-AT-Joan-Perrey-Prato/module-authentification/">Retour à la page d'accueil</a></p>
     </div>
 </body>
 </html>
