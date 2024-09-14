@@ -33,7 +33,7 @@ $superutilisateur = $utilisateurs['Admin'] == 2;
     
     <br><br><br><br><br>
     <p> ------------------ </p>
-    <a href="http://localhost/ap2/"><button>Retour page de connexion</button></a>
+    <a href="http://localhost/PROJET-SIO-2A/2024-SIO-AT-Joan-Perrey-Prato/module-authentification/"><button>Retour page de connexion</button></a>
 
 </body>
 </html>
