@@ -3,8 +3,8 @@
 // Pour ajouter un utilisateur manuellement
 /*
 include 'database.php';
-global $db;
-
+global $db;  
+ 
 $q= $db->prepare("INSERT INTO utilisateur(pseudo,email,mdp) VALUES(:pseudo,:email,:mdp)"); 
 $q->execute([
     'pseudo' => 'Test29',
