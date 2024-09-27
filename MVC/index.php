@@ -11,7 +11,7 @@
     function loadController($controller){
         switch($controller){
             case 'Articles':
-                $strFileController ='controller/articlesController.php';
+                $strFileController ='controller/ArticlesController.php';
                 require_once $strFileController;
                 $controllerObj = new ArticlesController();
             break;
@@ -22,6 +22,7 @@
                 $controllerObj = new ArticlesController();
             break;
         }
+        return $controllerObj;
     }
     function loadAction($controllerObj){
         if(isset($_GET["action"])){

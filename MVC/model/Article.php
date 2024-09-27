@@ -43,14 +43,14 @@
 
         public function getAll(){
             $query = $this->connexion->prepare("SELECT art_id,art_nom,art_prix,art_poid FROM".$this->table); //ouvre la connexion
-
+            $query->execute();
             $result = $query->fetchAll();
             $this->connexion = null; //ferme la connexion
             return $result;
         }
 
         public function getById($id){
-            $$query = $this->connexion->prepare("SELECT art_id,art_nom,art_prix,art_poid FROM ".$this->table. " WHERE art_id = :id");
+            $query = $this->connexion->prepare("SELECT art_id,art_nom,art_prix,art_poid FROM ".$this->table. " WHERE art_id = :id");
 
             $query->execute(array(
                 "id" => $id
@@ -62,7 +62,7 @@
         }
 
         public function insert(){
-            $$query = $this->connexion->prepare("INSERT INTO ".$this->table. " art_nom,art_prix,art_poid VALUES(:nom,:prix,:poid)");
+            $query = $this->connexion->prepare("INSERT INTO ".$this->table. " (art_nom,art_prix,art_poid) VALUES (:nom, :prix, :poid)");
 
             $result = $query->execute(array(
                 "nom" => $this->art_nom,
@@ -76,7 +76,7 @@
         }
 
         public function update(){
-            $$query = $this->connexion->prepare("UPDATE ".$this->table. " SET art_nom=:nom, art_prix=:prix, art_poid=:poid WHERE art_id=:id");
+            $query = $this->connexion->prepare("UPDATE ".$this->table. " SET art_nom=:nom, art_prix=:prix, art_poid=:poid WHERE art_id=:id");
 
             $result = $query->execute(array(
                 "id" => $this->art_id,
