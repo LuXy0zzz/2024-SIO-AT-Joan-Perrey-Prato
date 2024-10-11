@@ -11,10 +11,11 @@
             margin-top:5px;
             margin-bottom:5px;
         }
-        .right{
+        .right {
             float:right;
         }
-    </style>
+
+</style>
 </head>
 <body>
     <form action ="index.php?controller=articles&action=creer" 
@@ -31,20 +32,31 @@
         <hr/> 
     </div>
     
-    <section class="col-lg-7" style="height:400px;overflow-y:scroll;">
-        <!-- $article["nom"]; -> $article["art_nom"]; -->
-        <?php foreach($data["articles"] as $article) {?>
-            <?php echo $article["art_nom"]; ?> - 
-            <?php echo $article["art_prix"]; ?> - 
-            <?php echo $article["art_poid"]; ?> - 
-            <div class="right">
-                <a href="index.php?controller=articles&action=detail&id=<?php echo $article['art_id']; ?>" 
-                class="btn btn-info">
-                detail
-                </a>  
-        </div>
-        <hr/>
+    <section class="col-lg-7" style="height: 400px; overflow-y: scroll;">
+        <?php foreach($data["articles"] as $article) { ?>
+            <div>
+                <?php echo $article["art_nom"]; ?> - 
+                <?php echo $article["art_prix"]; ?> - 
+                <?php echo $article["art_poid"]; ?> 
+
+                <div class="right">
+                    <!-- Détail -->
+                    <form action="index.php?controller=articles&action=detail" method="get" style="display:inline;">
+                        <input type="hidden" name="id" value="<?php echo $article['art_id']; ?>" />
+                        <input type="submit" value="Détail" class="btn btn-info"/>
+                    </form>
+
+                    <!-- Formulaire de suppression -->
+                    <form action="index.php?controller=articles&action=delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="<?php echo $article['art_id']; ?>" />
+                        <input type="submit" value="Supprimer" class="btn btn-danger" 
+                                onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet article ?');"/>
+                    </form>
+                </div>
+            </div>
+            <hr/>
         <?php } ?>
     </section>
+
 </body>
 </html>
