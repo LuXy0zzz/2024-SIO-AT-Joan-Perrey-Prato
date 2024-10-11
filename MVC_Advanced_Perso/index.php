@@ -28,7 +28,7 @@
         if(isset($_GET["action"])){
             $controllerObj->run($_GET["action"]);
         }else{
-            $controllerObj->run(ACTION_DEFAULT);
+            $controllerObj->run(ACTION_DEFAULT); 
         }
     }
 

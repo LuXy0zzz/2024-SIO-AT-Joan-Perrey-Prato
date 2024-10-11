@@ -28,7 +28,7 @@
         }
 
         public function setArt_id($id){
-            $this -> art_poid = $id;
+            $this -> art_id = $id;
         }
         public function setArt_nom($nom){
             $this -> art_nom = $nom;
@@ -90,7 +90,16 @@
             return $result;
         }
 
-        // rajouter function delete
+        public function delete(){
+            $query = $this->connexion->prepare("DELETE FROM ".$this->table. " WHERE art_id=:id");
+        
+            $result = $query->execute(array(
+                "id" => $this->art_id
+            ));
+        
+            return $result;
+        }
+        
 
 
     }
