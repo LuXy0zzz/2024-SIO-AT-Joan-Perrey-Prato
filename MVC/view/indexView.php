@@ -11,11 +11,10 @@
             margin-top:5px;
             margin-bottom:5px;
         }
-        .right {
+        .right{
             float:right;
         }
-
-</style>
+    </style>
 </head>
 <body>
     <form action ="index.php?controller=articles&action=creer" 
@@ -28,7 +27,7 @@
     </form>
 
     <div class="col-lg-7">
-        <h3>Articles</h3> 
+        <h3>Articles</h3>
         <hr/> 
     </div>
     
@@ -41,10 +40,10 @@
 
                 <div class="right">
                     <!-- Détail -->
-                    <form action="index.php?controller=articles&action=detail" method="get" style="display:inline;">
-                        <input type="hidden" name="id" value="<?php echo $article['art_id']; ?>" />
-                        <input type="submit" value="Détail" class="btn btn-info"/>
-                    </form>
+                    <a href="index.php?controller=articles&action=detail&id=<?php echo $article['art_id']; ?>" 
+                        class="btn btn-info">
+                        Détail
+                    </a>
 
                     <!-- Formulaire de suppression -->
                     <form action="index.php?controller=articles&action=delete" method="post" style="display:inline;">
