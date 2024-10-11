@@ -1,11 +1,11 @@
 <?php
-class Articlescontroller{
+class Joueurscontroller{
     private $connecteur;
     private $connexion;
 
     public function __construct(){
         require_once __DIR__ ."/../core/connecteur.php";
-        require_once __DIR__ ."/../model/article.php";
+        require_once __DIR__ ."/../model/joueur.php";
     
         $this->connecteur = new Connecteur();
         $this->connexion=$this->connecteur->connexion();
