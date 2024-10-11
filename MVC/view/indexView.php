@@ -28,7 +28,7 @@
     </form>
 
     <div class="col-lg-7">
-        <h3>Articles</h3>
+        <h3>Articles</h3> 
         <hr/> 
     </div>
     
