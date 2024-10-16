@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Joueur</title>
+    <title>Page Accueil</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
     <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
     <style>
-        input{
-            margin-top:5px;
-            margin-bottom:5px;
+        input {
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
-        .right{
-            float:right;
+        .right {
+            float: right;
+        }
+        .joueur-info {
+            font-size: 1.5rem; /* Augmente la taille de la police pour les informations des joueurs */
+        }
+        .btn {
+            font-size: 1.2rem; /* Augmente la taille de la police pour les boutons */
         }
     </style>
 </head>
 <body>
-    <?php
-        include 'composantView/navBar.php';
-    ?>
+    <?php include 'composantView/navBar.php'; ?>
 
     <div class="col-lg-7">
+        <br> <br>
         <h3>Joueurs</h3>
         <hr/> 
     </div>
@@ -29,10 +34,12 @@
     <section class="col-lg-7" style="height: 400px; overflow-y: scroll;">
         <?php foreach($data["joueurs"] as $joueur) { ?>
             <div>
-                <?php echo $joueur["pseudo"]; ?> - 
-                <?php echo $joueur["rankrl"]; ?> - 
-                <?php echo $joueur["mmr"]; ?> - 
-                <?php echo $joueur["email"]; ?> 
+                <span class="joueur-info">
+                    <?php echo $joueur["pseudo"]; ?> - 
+                    <?php echo $joueur["rankrl"]; ?> - 
+                    <?php echo $joueur["mmr"]; ?> - 
+                    <?php echo $joueur["email"]; ?>
+                </span>
 
                 <div class="right">
                     <!-- Détail -->
