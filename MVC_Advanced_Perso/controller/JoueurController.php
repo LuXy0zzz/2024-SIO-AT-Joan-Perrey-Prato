@@ -27,6 +27,10 @@ class Joueurscontroller{
                 break;
             case "delete" :
                 $this->delete();
+                break;
+            case "initJoueur" :
+                $this->initJoueur();
+                break;
             default :
                 $this->index();
                 break;
@@ -77,6 +81,9 @@ class Joueurscontroller{
             // Gérer le cas où aucun ID n'est spécifié
             echo "Erreur : ID du joueur non spécifié.";
         }
+    }
+    public function initJoueur(){
+        $this->view("addJoueur", array("", "titre"=> "Ajout de Joueur"));
     }
     
 

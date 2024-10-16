@@ -17,15 +17,9 @@
     </style>
 </head>
 <body>
-    <form action ="index.php?controller=joueurs&action=creer" 
-    method ="post" class="col-lg-5">
-        <h3>Ajouter Joueur</h3>
-        Pseudo: <input type="text" name="pseudo_rl" class="form-control">
-        Rank: <input type="text" name="rankrl_rl" class="form-control">
-        Mmr: <input type="text" name="mmr_rl" class="form-control">
-        Email: <input type="email" name="email_rl" class="form-control">
-        <input type="submit" value="Send" class="btn btn-success"/>
-    </form>
+    <?php
+        include 'composantView/navBar.php';
+    ?>
 
     <div class="col-lg-7">
         <h3>Joueurs</h3>
