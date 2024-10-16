@@ -1,48 +1,55 @@
 <?php
 
     // nom du fichier est le meme nom que la table !! ;)
-    class Article{
-        private $table='Article';
+    class Joueur{
+        private $table='Joueur';
         private $connexion;
 
-        private $art_id;
-        private $art_nom;
-        private $art_prix;
-        private $art_poid;
+        private $idjoueur;
+        private $pseudo;
+        private $rankrl;
+        private $mmr;
+        private $email;
 
         public function __construct($connexion) {
             $this->connexion= $connexion;          
         }
 
-        public function getArt_id(){
-            return $this->art_id;
+        public function getidjoueur(){
+            return $this->idjoueur;
         }
-        public function getArt_nom(){
-            return $this->art_nom;
+        public function getpseudo(){
+            return $this->pseudo;
         }
-        public function getArt_prix(){
-            return $this->art_prix;
+        public function getrankrl(){
+            return $this->rankrl;
         }
-        public function getArt_poid(){
-            return $this->art_poid;
+        public function getmmr(){
+            return $this->mmr;
+        }
+        public function getemail(){
+            return $this->email;
         }
 
-        public function setArt_id($id){
-            $this -> art_id = $id;
+        public function setidjoueur($id){
+            $this -> idjoueur = $id;
         }
-        public function setArt_nom($nom){
-            $this -> art_nom = $nom;
+        public function setpseudo($pseudo_rl){
+            $this -> pseudo = $pseudo_rl;
         }
-        public function setArt_prix($prix){
-            $this -> art_prix = $prix;
+        public function setrankrl($rankrl_rl){
+            $this -> rankrl = $rankrl_rl;
         }
-        public function setArt_poid($poid){
-            $this -> art_poid = $poid;
+        public function setmmr($mmr_rl){
+            $this -> mmr = $mmr_rl;
+        }
+        public function setemail($email_rl){
+            $this -> email = $email_rl;
         }
 
 
         public function getAll(){
-            $query = $this->connexion->prepare("SELECT art_id,art_nom,art_prix,art_poid FROM ".$this->table); //ouvre la connexion
+            $query = $this->connexion->prepare("SELECT idjoueur,pseudo,rankrl,mmr,email FROM ".$this->table); //ouvre la connexion
             $query->execute();
             $result = $query->fetchAll();
             
@@ -50,7 +57,7 @@
         }
 
         public function getById($id){
-            $query = $this->connexion->prepare("SELECT art_id,art_nom,art_prix,art_poid FROM ".$this->table. " WHERE art_id = :id");
+            $query = $this->connexion->prepare("SELECT idjoueur,pseudo,rankrl,mmr,email FROM ".$this->table. " WHERE idjoueur = :id");
 
             $query->execute(array(
                 "id" => $id
@@ -62,12 +69,13 @@
         }
 
         public function insert(){
-            $query = $this->connexion->prepare("INSERT INTO ".$this->table. "(art_nom,art_prix,art_poid) VALUES (:nom, :prix, :poid)");
+            $query = $this->connexion->prepare("INSERT INTO ".$this->table. "(pseudo,rankrl,mmr,email) VALUES (:pseudo_rl, :rankrl_rl, :mmr_rl, :email_rl)");
 
             $result = $query->execute(array(
-                "nom" => $this->art_nom,
-                "prix" => $this->art_prix,
-                "poid" => $this->art_poid
+                "pseudo_rl" => $this->pseudo,
+                "rankrl_rl" => $this->rankrl,
+                "mmr_rl" => $this->mmr,
+                "email_rl" => $this->email
             ));
 
             
@@ -76,13 +84,14 @@
         }
 
         public function update(){
-            $query = $this->connexion->prepare("UPDATE ".$this->table. " SET art_nom=:nom, art_prix=:prix, art_poid=:poid WHERE art_id=:id");
+            $query = $this->connexion->prepare("UPDATE ".$this->table. " SET pseudo=:pseudo_rl, rankrl=:rankrl_rl, mmr=:mmr_rl, email=:email_rl WHERE idjoueur = :id");
 
             $result = $query->execute(array(
-                "id" => $this->art_id,
-                "nom" => $this->art_nom,
-                "prix" => $this->art_prix,
-                "poid" => $this->art_poid
+                "id" => $this->idjoueur,
+                "pseudo_rl" => $this->pseudo,
+                "rankrl_rl" => $this->rankrl,
+                "mmr_rl" => $this->mmr,
+                "email_rl" => $this->email
             ));
 
             
@@ -91,10 +100,10 @@
         }
 
         public function delete(){
-            $query = $this->connexion->prepare("DELETE FROM ".$this->table. " WHERE art_id=:id");
+            $query = $this->connexion->prepare("DELETE FROM ".$this->table. " WHERE idjoueur = :id");
         
             $result = $query->execute(array(
-                "id" => $this->art_id
+                "id" => $this->idjoueur
             ));
         
             return $result;

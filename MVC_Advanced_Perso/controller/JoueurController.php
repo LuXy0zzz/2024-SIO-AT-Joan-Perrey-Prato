@@ -34,46 +34,48 @@ class Joueurscontroller{
     }
 
     public function index(){
-        $Article = new Article($this->connexion);
-        $listeArticles = $Article->getAll();
-        $this->view("index", array("articles"=>$listeArticles, "titre"=> "PHP MVC"));
+        $Joueur = new Joueur($this->connexion);
+        $listeJoueurs = $Joueur->getAll();
+        $this->view("index", array("joueurs"=>$listeJoueurs, "titre"=> "PHP MVC"));
     }
     public function detail(){
-        $Article = new Article($this->connexion);
-        $unArticle = $Article->getById($_GET["id"]);
-        $this->view("detail", array("article"=>$unArticle, "titre"=> "Detail Article"));
+        $Joueur = new Joueur($this->connexion);
+        $unJoueur = $Joueur->getById($_GET["id"]);
+        $this->view("detail", array("joueur"=>$unJoueur, "titre"=> "Detail Joueur"));
     }
     public function creer(){
-        $Article = new Article($this->connexion);
-        $Article->setArt_nom($_POST["nom"]);
-        $Article->setArt_prix($_POST["prix"]);
-        $Article->setArt_poid($_POST["poid"]);
-        if($Article->insert()){
+        $Joueur = new Joueur($this->connexion);
+        $Joueur->setpseudo($_POST["pseudo_rl"]);
+        $Joueur->setrankrl($_POST["rankrl_rl"]);
+        $Joueur->setmmr($_POST["mmr_rl"]);
+        $Joueur->setemail($_POST["email_rl"]);
+        if($Joueur->insert()){
             header('Location: index.php');
             exit;
         }
     }
     public function maj(){
-        $Article = new Article($this->connexion);
-        $Article->setArt_id($_POST["id"]);
-        $Article->setArt_nom($_POST["nom"]);
-        $Article->setArt_prix($_POST["prix"]);
-        $Article->setArt_poid($_POST["poid"]);
-        if($Article->update())
+        $Joueur = new Joueur($this->connexion);
+        $Joueur->setidjoueur($_POST["id"]);
+        $Joueur->setpseudo($_POST["pseudo_rl"]);
+        $Joueur->setrankrl($_POST["rankrl_rl"]);
+        $Joueur->setmmr($_POST["mmr_rl"]);
+        $Joueur->setemail($_POST["email_rl"]);
+        if($Joueur->update())
             header('Location: index.php');
     }
 
     public function delete(){
         if (isset($_POST["id"])) {
-            $Article = new Article($this->connexion);
-            $Article->setArt_id($_POST["id"]);
-            if ($Article->delete()) {
+            $Joueur = new Joueur($this->connexion);
+            $Joueur->setidjoueur($_POST["id"]);
+            if ($Joueur->delete()) {
                 header('Location: index.php');
                 exit;
             }
         } else {
             // Gérer le cas où aucun ID n'est spécifié
-            echo "Erreur : ID de l'article non spécifié.";
+            echo "Erreur : ID du joueur non spécifié.";
         }
     }
     

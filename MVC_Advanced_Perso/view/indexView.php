@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemple PHP+PDO+POO+MVC</title>
+    <title>Page Joueur</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
     <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
     <style>
@@ -17,39 +17,41 @@
     </style>
 </head>
 <body>
-    <form action ="index.php?controller=articles&action=creer" 
+    <form action ="index.php?controller=joueurs&action=creer" 
     method ="post" class="col-lg-5">
-        <h3>Add article</h3>
-        Nom: <input type="text" name="nom" class="form-control">
-        Poid: <input type="text" name="poid" class="form-control">
-        Prix: <input type="text" name="prix" class="form-control">
+        <h3>Ajouter Joueur</h3>
+        Pseudo: <input type="text" name="pseudo_rl" class="form-control">
+        Rank: <input type="text" name="rankrl_rl" class="form-control">
+        Mmr: <input type="text" name="mmr_rl" class="form-control">
+        Email: <input type="email" name="email_rl" class="form-control">
         <input type="submit" value="Send" class="btn btn-success"/>
     </form>
 
     <div class="col-lg-7">
-        <h3>Articles</h3>
+        <h3>Joueurs</h3>
         <hr/> 
     </div>
     
     <section class="col-lg-7" style="height: 400px; overflow-y: scroll;">
-        <?php foreach($data["articles"] as $article) { ?>
+        <?php foreach($data["joueurs"] as $joueur) { ?>
             <div>
-                <?php echo $article["art_nom"]; ?> - 
-                <?php echo $article["art_prix"]; ?> - 
-                <?php echo $article["art_poid"]; ?> 
+                <?php echo $joueur["pseudo"]; ?> - 
+                <?php echo $joueur["rankrl"]; ?> - 
+                <?php echo $joueur["mmr"]; ?> - 
+                <?php echo $joueur["email"]; ?> 
 
                 <div class="right">
                     <!-- Détail -->
-                    <a href="index.php?controller=articles&action=detail&id=<?php echo $article['art_id']; ?>" 
+                    <a href="index.php?controller=joueurs&action=detail&id=<?php echo $joueur['idjoueur']; ?>" 
                         class="btn btn-info">
                         Détail
                     </a>
 
                     <!-- Formulaire de suppression -->
-                    <form action="index.php?controller=articles&action=delete" method="post" style="display:inline;">
-                        <input type="hidden" name="id" value="<?php echo $article['art_id']; ?>" />
+                    <form action="index.php?controller=joueurs&action=delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="<?php echo $joueur['idjoueur']; ?>" />
                         <input type="submit" value="Supprimer" class="btn btn-danger" 
-                                onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet article ?');"/>
+                                onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce joueur ?');"/>
                     </form>
                 </div>
             </div>

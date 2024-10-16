@@ -10,16 +10,16 @@
     }
     function loadController($controller){
         switch($controller){
-            case 'Articles':
-                $strFileController ='controller/ArticlesController.php';
+            case 'Joueurs':
+                $strFileController ='controller/JoueurController.php';
                 require_once $strFileController;
-                $controllerObj = new ArticlesController();
+                $controllerObj = new JoueursController();
             break;
 
             default:
-            $strFileController ='controller/articlesController.php';
+            $strFileController ='controller/JoueurController.php';
                 require_once $strFileController;
-                $controllerObj = new ArticlesController();
+                $controllerObj = new JoueursController();
             break;
         }
         return $controllerObj;
