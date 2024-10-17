@@ -17,7 +17,7 @@
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
       data-mdb-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
       aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+      <i class="fas fa-bars"></i> 
     </button>
   </div>
 </nav>
@@ -27,7 +27,7 @@
   <div class="bg-body-tertiary shadow-3 p-4">
     <a href="index.php" class="btn btn-link btn-block border-bottom m-0 fs-5">Accueil</a>
     <a href="index.php?controller=Joueur&action=initJoueur" class="btn btn-link btn-block border-bottom m-0 fs-5">Ajouter Joueur</a>
-    <a href="page3.php" class="btn btn-link btn-block m-0 fs-5">Link 3</a>
+    <a href="#" class="btn btn-link btn-block m-0 fs-5">s 3</a>
   </div>
 </div>
 

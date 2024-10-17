@@ -18,6 +18,9 @@
     </style>
 </head>
 <body>
+    <?php
+        include 'composantView/navBar.php';
+    ?>
 <div class="col-lg-5 mr-auto">
     <!-- Formulaire de modification -->
     <form action="index.php?controller=joueurs&action=maj" method="post">
@@ -27,7 +30,8 @@
         Pseudo : <input type="text" name="pseudo_rl" value="<?php echo $data["joueur"]->pseudo ?>" class="form-control" />
         Rank : <input type="text" name="rankrl_rl" value="<?php echo $data["joueur"]->rankrl ?>" class="form-control" />
         Mmr : <input type="text" name="mmr_rl" value="<?php echo $data["joueur"]->mmr ?>" class="form-control" />
-        Email : <input type="text" name="email_rl" value="<?php echo $data["joueur"]->email ?>" class="form-control" />
+        Email : <input type="text" name="email_rl" value="<?php echo $data["joueur"]->email ?>" class="form-control" /> 
+        <br> <br>
         <input type="submit" value="Modifier" class="btn btn-success"/>
     </form>
     

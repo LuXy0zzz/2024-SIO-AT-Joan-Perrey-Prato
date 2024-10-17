@@ -3,62 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Accueil</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
-    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+    <title>Détails des Joueurs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        input {
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        .right {
-            float: right;
+        .card {
+            margin-bottom: 20px;
         }
         .joueur-info {
-            font-size: 1.5rem; /* Augmente la taille de la police pour les informations des joueurs */
+            font-size: 1.2rem; /* Taille de police pour les informations des joueurs */
+        }
+        .card-title {
+            font-size: 1.5rem; /* Taille de police pour le titre */
         }
         .btn {
-            font-size: 1.2rem; /* Augmente la taille de la police pour les boutons */
+            margin-top: 10px; /* Espacement pour les boutons */
         }
     </style>
 </head>
 <body>
     <?php include 'composantView/navBar.php'; ?>
 
-    <div class="col-lg-7">
-        <br> <br>
-        <h3>Joueurs</h3>
-        <hr/> 
-    </div>
-    
-    <section class="col-lg-7" style="height: 400px; overflow-y: scroll;">
-        <?php foreach($data["joueurs"] as $joueur) { ?>
-            <div>
-                <span class="joueur-info">
-                    <?php echo $joueur["pseudo"]; ?> - 
-                    <?php echo $joueur["rankrl"]; ?> - 
-                    <?php echo $joueur["mmr"]; ?> - 
-                    <?php echo $joueur["email"]; ?>
-                </span>
+    <div class="container">
+        <h3 class="text-center">Liste des Joueurs</h3>
+        <div class="row">
+            <?php foreach($data["joueurs"] as $joueur) { ?>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo "@".$joueur["pseudo"]; ?></h5>
+                            <p class="joueur-info">
+                                <strong>Rank :</strong> <?php echo $joueur["rankrl"]; ?><br>
+                                <strong>mmr :</strong> <?php echo $joueur["mmr"]; ?><br>
+                                <strong>Email :</strong> <?php echo $joueur["email"]; ?>
+                            </p>
+                            <div class="text-right">
+                                <!-- Détail -->
+                                <a href="index.php?controller=joueurs&action=detail&id=<?php echo $joueur['idjoueur']; ?>" class="btn btn-info">
+                                    <i class="fa-solid fa-circle-info"></i> Détails
+                                </a>
 
-                <div class="right">
-                    <!-- Détail -->
-                    <a href="index.php?controller=joueurs&action=detail&id=<?php echo $joueur['idjoueur']; ?>" 
-                        class="btn btn-info">
-                        Détail
-                    </a>
-
-                    <!-- Formulaire de suppression -->
-                    <form action="index.php?controller=joueurs&action=delete" method="post" style="display:inline;">
-                        <input type="hidden" name="id" value="<?php echo $joueur['idjoueur']; ?>" />
-                        <input type="submit" value="Supprimer" class="btn btn-danger" 
-                                onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce joueur ?');"/>
-                    </form>
+                                <!-- Formulaire de suppression -->
+                                <form action="index.php?controller=joueurs&action=delete" method="post" style="display:inline;">
+                                    <input type="hidden" name="id" value="<?php echo $joueur['idjoueur']; ?>" />
+                                    <button type="submit" class="btn btn-danger" 
+                                            onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce joueur ?');">
+                                        <i class="fa-solid fa-trash"></i> Supprimer
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <hr/>
-        <?php } ?>
-    </section>
+            <?php } ?>
+        </div>
+    </div>
 
 </body>
 </html>
