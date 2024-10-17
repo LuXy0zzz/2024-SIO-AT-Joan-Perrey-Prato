@@ -20,19 +20,26 @@
         .btn {
             margin-top: 10px; /* Espacement pour les boutons */
         }
+        .photo-profil {
+            width: 150px; /* Largeur de l'image */
+            height: 150px; /* Hauteur de l'image */
+            border-radius: 50%; /* Rendre l'image ronde */
+            object-fit: cover; /* Couvrir tout le conteneur sans déformation */
+        }
     </style>
 </head>
 <body>
     <?php include 'composantView/navBar.php'; ?>
 
     <div class="container">
-        <h3 class="text-center">Liste des Joueurs</h3>
+        <h3 class="text-center">Liste des Joueurs</h3> <br> <br> <br>
         <div class="row">
             <?php foreach($data["joueurs"] as $joueur) { ?>
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo "@".$joueur["pseudo"]; ?></h5>
+                            <img src="<?php echo $joueur["photo"]; ?>" alt="Photo de profil" class="photo-profil"><br> <br>
+                            <h5 class="card-title"><strong><?php echo $joueur["pseudo"]; ?></strong></h5>
                             <p class="joueur-info">
                                 <strong>Rank :</strong> <?php echo $joueur["rankrl"]; ?><br>
                                 <strong>mmr :</strong> <?php echo $joueur["mmr"]; ?><br>

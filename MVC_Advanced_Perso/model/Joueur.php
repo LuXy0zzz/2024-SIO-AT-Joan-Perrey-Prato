@@ -10,6 +10,7 @@
         private $rankrl;
         private $mmr;
         private $email;
+        private $photo; // Nouveau champ pour la photo
 
         public function __construct($connexion) {
             $this->connexion= $connexion;          
@@ -30,6 +31,9 @@
         public function getemail(){
             return $this->email;
         }
+        public function getphoto() {
+            return $this->photo;
+        }
 
         public function setidjoueur($id){
             $this -> idjoueur = $id;
@@ -46,10 +50,13 @@
         public function setemail($email_rl){
             $this -> email = $email_rl;
         }
+        public function setphoto($photo_rl) {
+            $this->photo = $photo_rl;
+        }
 
 
         public function getAll(){
-            $query = $this->connexion->prepare("SELECT idjoueur,pseudo,rankrl,mmr,email FROM ".$this->table); //ouvre la connexion
+            $query = $this->connexion->prepare("SELECT idjoueur,pseudo,rankrl,mmr,email,photo FROM ".$this->table); //ouvre la connexion
             $query->execute();
             $result = $query->fetchAll();
             
@@ -57,7 +64,7 @@
         }
 
         public function getById($id){
-            $query = $this->connexion->prepare("SELECT idjoueur,pseudo,rankrl,mmr,email FROM ".$this->table. " WHERE idjoueur = :id");
+            $query = $this->connexion->prepare("SELECT idjoueur,pseudo,rankrl,mmr,email,photo FROM ".$this->table. " WHERE idjoueur = :id");
 
             $query->execute(array(
                 "id" => $id
@@ -69,13 +76,14 @@
         }
 
         public function insert(){
-            $query = $this->connexion->prepare("INSERT INTO ".$this->table. "(pseudo,rankrl,mmr,email) VALUES (:pseudo_rl, :rankrl_rl, :mmr_rl, :email_rl)");
+            $query = $this->connexion->prepare("INSERT INTO ".$this->table. "(pseudo,rankrl,mmr,email, photo) VALUES (:pseudo_rl, :rankrl_rl, :mmr_rl, :email_rl, :photo_rl)");
 
             $result = $query->execute(array(
                 "pseudo_rl" => $this->pseudo,
                 "rankrl_rl" => $this->rankrl,
                 "mmr_rl" => $this->mmr,
-                "email_rl" => $this->email
+                "email_rl" => $this->email,
+                "photo_rl" => $this->photo
             ));
 
             
@@ -84,14 +92,15 @@
         }
 
         public function update(){
-            $query = $this->connexion->prepare("UPDATE ".$this->table. " SET pseudo=:pseudo_rl, rankrl=:rankrl_rl, mmr=:mmr_rl, email=:email_rl WHERE idjoueur = :id");
+            $query = $this->connexion->prepare("UPDATE ".$this->table. " SET pseudo=:pseudo_rl, rankrl=:rankrl_rl, mmr=:mmr_rl, email=:email_rl, photo=:photo_rl WHERE idjoueur = :id");
 
             $result = $query->execute(array(
                 "id" => $this->idjoueur,
                 "pseudo_rl" => $this->pseudo,
                 "rankrl_rl" => $this->rankrl,
                 "mmr_rl" => $this->mmr,
-                "email_rl" => $this->email
+                "email_rl" => $this->email,
+                "photo_rl" => $this->photo
             ));
 
             
