@@ -26,6 +26,20 @@
             border-radius: 50%; /* Rendre l'image ronde */
             object-fit: cover; /* Couvrir tout le conteneur sans déformation */
         }
+        .btn-info {
+            font-size: 13px !important; 
+            padding: 7px 10px !important;
+            width: 30% !important; 
+            display: inline-block; 
+            margin-right: 10px; 
+        }
+        .btn-danger {
+            font-size: 13px !important; 
+            padding: 7px 10px !important;
+            width: 36% !important; 
+            display: inline-block; 
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -48,7 +62,7 @@
                             <div class="text-right">
                                 <!-- Détail -->
                                 <a href="index.php?controller=joueurs&action=detail&id=<?php echo $joueur['idjoueur']; ?>" class="btn btn-info">
-                                    <i class="fa-solid fa-circle-info"></i> Détails
+                                    <i class="fa-solid fa-circle-info fa-lg"></i> Détails
                                 </a>
 
                                 <!-- Formulaire de suppression -->
@@ -56,7 +70,7 @@
                                     <input type="hidden" name="id" value="<?php echo $joueur['idjoueur']; ?>" />
                                     <button type="submit" class="btn btn-danger" 
                                             onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce joueur ?');">
-                                        <i class="fa-solid fa-trash"></i> Supprimer
+                                        <i class="fa-solid fa-trash fa-lg"></i> Supprimer
                                     </button>
                                 </form>
                             </div>

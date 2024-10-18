@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <style>
+body {
+    font-size: 16px; /* Augmente la taille globale des caractères */
+}
+</style>
 
 <!-- Navbar -->
 <nav class="navbar bg-body-tertiary">
@@ -29,7 +34,7 @@
     <a href="index.php?controller=Joueur&action=initJoueur" class="btn btn-link btn-block m-0 fs-5">Ajouter Joueur</a>
   </div>
 </div>
-<br> <br>
+<br>
 
 </div>
 

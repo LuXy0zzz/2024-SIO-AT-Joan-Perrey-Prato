@@ -104,18 +104,23 @@ class Joueurscontroller{
         $Joueur->setmmr($_POST["mmr_rl"]);
         $Joueur->setemail($_POST["email_rl"]);
     
-        // Gérer l'upload de la photo
+        // Vérifier si une nouvelle photo est téléchargée
         if (!empty($_FILES['photo_rl']['name'])) {
             $target_dir = "uploads/";
             $target_file = $target_dir . basename($_FILES["photo_rl"]["name"]);
             move_uploaded_file($_FILES["photo_rl"]["tmp_name"], $target_file);
             $Joueur->setphoto($target_file);
+        } else {
+            // Récupérer l'ancienne photo du joueur avant la mise à jour
+            $ancienJoueur = $Joueur->getById($_POST["id"]);
+            $Joueur->setphoto($ancienJoueur->photo);
         }
     
         if ($Joueur->update()) {
             header('Location: index.php');
         }
     }
+    
     
     public function delete() {
         if (isset($_POST["id"])) {

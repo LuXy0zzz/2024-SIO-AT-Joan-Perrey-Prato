@@ -12,7 +12,7 @@
             background-color: #f8f9fa; /* Couleur de fond */
         }
         .container {
-            margin-top: 50px; /* Marges supérieures */
+            margin-top: 10px; /* Marges supérieures */
         }
         .form-card {
             padding: 20px; /* Espacement intérieur de la carte */
@@ -26,6 +26,16 @@
         }
         .icon-btn i {
             margin-right: 7px; /* Ajoute un espace entre l'icône et le texte */
+        }
+        input.form-control, textarea.form-control {
+            font-size: 14px; /* Change la taille de la police */
+            padding: 10px; /* Ajuste l'espace à l'intérieur des champs */
+            line-height: 1.5; /* Espace entre les lignes de texte */
+        }
+        .btn-success {
+            background-color: #28a745 !important; /* Conserve la couleur Bootstrap */
+            border-color: #28a745 !important;     
+            font-size: 12px !important;
         }
     </style>
 </head>
@@ -58,6 +68,7 @@
                             <label for="photo_rl">Photo:</label>
                             <input type="file" name="photo_rl" class="form-control" required>
                         </div>
+                        <br>
                         <button type="submit" class="btn btn-success icon-btn">
                             <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i> Envoyer
                         </button>
