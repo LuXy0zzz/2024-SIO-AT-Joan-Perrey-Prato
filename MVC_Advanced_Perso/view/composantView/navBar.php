@@ -22,14 +22,14 @@
   </div>
 </nav>
 
-<!-- Collapsible content -->
+
 <div class="collapse" id="navbarToggleExternalContent2">
-  <div class="bg-body-tertiary shadow-3 p-4">
+  <div class="bg-body-tertiary shadow-2 p-1">
     <a href="index.php" class="btn btn-link btn-block border-bottom m-0 fs-5">Accueil</a>
-    <a href="index.php?controller=Joueur&action=initJoueur" class="btn btn-link btn-block border-bottom m-0 fs-5">Ajouter Joueur</a>
-    <a href="#" class="btn btn-link btn-block m-0 fs-5">s 3</a>
+    <a href="index.php?controller=Joueur&action=initJoueur" class="btn btn-link btn-block m-0 fs-5">Ajouter Joueur</a>
   </div>
 </div>
+<br> <br>
 
 </div>
 
