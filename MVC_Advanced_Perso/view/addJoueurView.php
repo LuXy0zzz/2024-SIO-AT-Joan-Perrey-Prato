@@ -32,6 +32,8 @@
             padding: 10px; /* Ajuste l'espace à l'intérieur des champs */
             line-height: 1.5; /* Espace entre les lignes de texte */
         }
+
+        /* bouton Envoyer*/
         .btn-success {
             background-color: #28a745 !important; /* Conserve la couleur Bootstrap */
             border-color: #28a745 !important;     

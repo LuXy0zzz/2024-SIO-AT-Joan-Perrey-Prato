@@ -54,7 +54,7 @@ class Joueurscontroller{
         $Joueur->setmmr($_POST["mmr_rl"]);
         $Joueur->setemail($_POST["email_rl"]);
     
-        // Gérer l'upload de la photo
+        // Gere l'upload de la photo
         if (!empty($_FILES['photo_rl']['name'])) {
             $target_dir = "uploads/";
             

@@ -42,21 +42,23 @@
         }
 
 
-        .btn-success {
-            background-color: #28a745 !important; /* Conserve la couleur Bootstrap */
+        /* bouton modifier*/
+        .btn-success { 
+            background-color: #28a745 !important;
             border-color: #28a745 !important;     
             font-size: 12px !important;
         }
 
+        /* bouton supprimer*/
         .btn-danger {
-            font-size: 12px !important; /* Ajuste la taille de la police du bouton Supprimer */
-            padding: 10px 20px;
+            font-size: 12px !important; 
         }
 
+        /* bouton retour*/
         .btn-info {
-            font-size: 12px !important; /* Ajuste la taille de la police du bouton Retour */
+            font-size: 12px !important;
             padding: 10px 20px;
-            width: 20% !important; /* S'assure que la largeur s'ajuste au contenu */
+            width: 20% !important; 
             display: inline-block; 
         }
 
@@ -111,7 +113,7 @@
 
                     <hr/>
 
-                    <!-- Formulaire de suppression -->
+                    
                     <form action="index.php?controller=joueurs&action=delete" method="post" onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer ce joueur ?');">
                         <input type="hidden" name="id" value="<?php echo $data["joueur"]->idjoueur ?>" />
                         <button type="submit" class="btn btn-danger">
@@ -122,7 +124,7 @@
 
                     <hr/>
 
-                    <!-- Bouton de retour -->
+                   
                     <a href="index.php" class="btn btn-info">Retour</a>
                 </div>
             </div>

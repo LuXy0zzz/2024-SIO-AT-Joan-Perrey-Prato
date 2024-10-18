@@ -11,9 +11,19 @@
 </head>
 <body>
   <style>
-body {
-    font-size: 16px; /* Augmente la taille globale des caractères */
-}
+    body {
+        font-size: 16px; /* Augmente la taille globale des caractères */
+    }
+    .btn-link{
+      font-size: 15px !important;
+      color: black;
+      font: bolder;
+      transition: background-color 0.4s ease, color 0.4s ease;
+    }
+    .btn-link:hover {
+    background-color: #74C0FC; 
+    color: #505050;  
+    }
 </style>
 
 <!-- Navbar -->

@@ -26,6 +26,8 @@
             border-radius: 50%; /* Rendre l'image ronde */
             object-fit: cover; /* Couvrir tout le conteneur sans déformation */
         }
+
+        /* bouton détail*/
         .btn-info {
             font-size: 13px !important; 
             padding: 7px 10px !important;
@@ -33,6 +35,8 @@
             display: inline-block; 
             margin-right: 10px; 
         }
+        
+        /* bouton supprimer*/
         .btn-danger {
             font-size: 13px !important; 
             padding: 7px 10px !important;
