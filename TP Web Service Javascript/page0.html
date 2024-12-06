@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ville App</title>
+
+
+</head>
+
+<body>
+	<div id="form-section">
+			
+			
+		<div id="root"></div>
+		<label for="test">Code postal:</label> 
+		<input type="number" id="CP" name="CP" required>
+		<button onclick="FonctionDep()"> Recevoir les communes</button>
+	</div>
+
+	<div id="result-section">
+		<p id="compteurV" style="color: green;"></p>
+		<p id="demo"></p>
+		
+	  </div>
+  <script>
+
+	/*
+		geo.api.gouv.fr
+		Grace aux formulaires de la page permettant de tester les web services, et grâce à vos onglets console et network, trouvez le service qui recherche et retourne la liste des villes(communes) en fournissant un numéro département.
+		Quel est le format du retour de ce web service ? 
+
+		Depuis la page0.html insérer le code javascript permettant de :
+		-	Consommer le web service avec un appel XMLHttpRequest (utilisez le département de votre choix).
+		-	Convertir la réponse du Web service avec la méthode JSON.parse. 
+		Cette méthode convertit le format JSON en tableau. 
+		-	Parcourez le tableau récupéré et afficher les informations suivantes en console :
+			XXXX
+	/*/
+  
+		function FonctionDep(){
+			document.getElementById('compteurV').innerHTML ='' ;
+
+			let maVarDep = document.getElementById('CP');
+			console.log(maVarDep);
+			if(maVarDep.value <=0 ){
+				alert("veuillez rentrez un nombre")
+			}else{
+
+			
+				// 1. Create a new XMLHttpRequest object
+				let xhr = new XMLHttpRequest();
+				// 2. Configure it: GET-request for the URL /article/.../loa 
+				xhr.open('GET', 'https://geo.api.gouv.fr/departements/'+maVarDep.value+'/communes?fields=nom,code,codesPostaux,siren,codeEpci,codeDepartement,codeRegion,population&format=json&geometry=centre');
+				console.log("https://geo.api.gouv.fr/communes?codeDepartement='+maVarDep.value+'&fields=nom,code,codesPostaux,siren,codeEpci,codeDepartement,codeRegion,population&format=json&geometry=centre");
+				// 3. Send the request over the network
+				xhr.send();
+				
+				// 4. This will be called after the response is received
+				xhr.onload = function() {
+					if (xhr.status!= 200) { // analyze HTTP status of the res
+						console.log('Error ${xhr.status}: ${xhr.statusText}');
+					} else { // show the result
+						let text = document.getElementById('demo');
+						let montab = xhr.response;
+						let communes = JSON.parse(montab);
+						text.innerHTML ='';
+						var i =0;
+						document.getElementById('compteurV').innerHTML += 'Nombre de communes : ' + communes.length +'<br>' ;
+
+						
+
+						for ( i = 0; i < communes.length; i++) {
+							document.getElementById('demo').innerHTML += '<br>Nom de la commune : ' + communes[i].nom ;
+							document.getElementById('demo').innerHTML += ' -- Code de la commune : ' + communes[i].code ;
+							document.getElementById('demo').innerHTML += ' -- Code postal de la commune : ' + communes[i].codesPostaux ;
+
+							
+						}
+					}
+			
+				};
+			};
+		}
+  </script>
+</body>
+
+</html>

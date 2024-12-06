@@ -1,0 +1,4215 @@
+[
+  {
+    "nom": "Aigaliers",
+    "code": "30001",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213000011",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 530
+  },
+  {
+    "nom": "Aigremont",
+    "code": "30002",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213000029",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 773
+  },
+  {
+    "nom": "Aigues-Mortes",
+    "code": "30003",
+    "codesPostaux": [
+      "30220"
+    ],
+    "siren": "213000037",
+    "codeEpci": "243000650",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 8685
+  },
+  {
+    "nom": "Aigues-Vives",
+    "code": "30004",
+    "codesPostaux": [
+      "30670"
+    ],
+    "siren": "213000045",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3331
+  },
+  {
+    "nom": "Aiguèze",
+    "code": "30005",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213000052",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 213
+  },
+  {
+    "nom": "Aimargues",
+    "code": "30006",
+    "codesPostaux": [
+      "30470"
+    ],
+    "siren": "213000060",
+    "codeEpci": "243000593",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5749
+  },
+  {
+    "nom": "Alès",
+    "code": "30007",
+    "codesPostaux": [
+      "30100"
+    ],
+    "siren": "213000078",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 43892
+  },
+  {
+    "nom": "Allègre-les-Fumades",
+    "code": "30008",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213000086",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1003
+  },
+  {
+    "nom": "Alzon",
+    "code": "30009",
+    "codesPostaux": [
+      "30770"
+    ],
+    "siren": "213000094",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 173
+  },
+  {
+    "nom": "Anduze",
+    "code": "30010",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213000102",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3324
+  },
+  {
+    "nom": "Les Angles",
+    "code": "30011",
+    "codesPostaux": [
+      "30133"
+    ],
+    "siren": "213000110",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 8480
+  },
+  {
+    "nom": "Aramon",
+    "code": "30012",
+    "codesPostaux": [
+      "30390"
+    ],
+    "siren": "213000128",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4127
+  },
+  {
+    "nom": "Argilliers",
+    "code": "30013",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213000136",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 448
+  },
+  {
+    "nom": "Arpaillargues-et-Aureillac",
+    "code": "30014",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213000144",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1046
+  },
+  {
+    "nom": "Arphy",
+    "code": "30015",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213000151",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 140
+  },
+  {
+    "nom": "Arre",
+    "code": "30016",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213000169",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 268
+  },
+  {
+    "nom": "Arrigas",
+    "code": "30017",
+    "codesPostaux": [
+      "30770"
+    ],
+    "siren": "213000177",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 213
+  },
+  {
+    "nom": "Aspères",
+    "code": "30018",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213000185",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 542
+  },
+  {
+    "nom": "Aubais",
+    "code": "30019",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213000193",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2958
+  },
+  {
+    "nom": "Aubord",
+    "code": "30020",
+    "codesPostaux": [
+      "30620"
+    ],
+    "siren": "213000201",
+    "codeEpci": "243000593",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2339
+  },
+  {
+    "nom": "Aubussargues",
+    "code": "30021",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000219",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 318
+  },
+  {
+    "nom": "Aujac",
+    "code": "30022",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213000227",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 168
+  },
+  {
+    "nom": "Aujargues",
+    "code": "30023",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213000235",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 779
+  },
+  {
+    "nom": "Aulas",
+    "code": "30024",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213000243",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 447
+  },
+  {
+    "nom": "Aumessas",
+    "code": "30025",
+    "codesPostaux": [
+      "30770"
+    ],
+    "siren": "213000250",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 241
+  },
+  {
+    "nom": "Avèze",
+    "code": "30026",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213000268",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1063
+  },
+  {
+    "nom": "Bagard",
+    "code": "30027",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213000276",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2577
+  },
+  {
+    "nom": "Bagnols-sur-Cèze",
+    "code": "30028",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213000284",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 18248
+  },
+  {
+    "nom": "Barjac",
+    "code": "30029",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213000292",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1611
+  },
+  {
+    "nom": "Baron",
+    "code": "30030",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213000300",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 348
+  },
+  {
+    "nom": "La Bastide-d'Engras",
+    "code": "30031",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213000318",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 203
+  },
+  {
+    "nom": "Beaucaire",
+    "code": "30032",
+    "codesPostaux": [
+      "30300"
+    ],
+    "siren": "213000326",
+    "codeEpci": "243000585",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 15680
+  },
+  {
+    "nom": "Beauvoisin",
+    "code": "30033",
+    "codesPostaux": [
+      "30640"
+    ],
+    "siren": "213000334",
+    "codeEpci": "243000593",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5581
+  },
+  {
+    "nom": "Bellegarde",
+    "code": "30034",
+    "codesPostaux": [
+      "30127"
+    ],
+    "siren": "213000342",
+    "codeEpci": "243000585",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 7740
+  },
+  {
+    "nom": "Belvézet",
+    "code": "30035",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213000359",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 238
+  },
+  {
+    "nom": "Bernis",
+    "code": "30036",
+    "codesPostaux": [
+      "30620"
+    ],
+    "siren": "213000367",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3397
+  },
+  {
+    "nom": "Bessèges",
+    "code": "30037",
+    "codesPostaux": [
+      "30160"
+    ],
+    "siren": "213000375",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2695
+  },
+  {
+    "nom": "Bez-et-Esparon",
+    "code": "30038",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213000383",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 323
+  },
+  {
+    "nom": "Bezouce",
+    "code": "30039",
+    "codesPostaux": [
+      "30320"
+    ],
+    "siren": "213000391",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2328
+  },
+  {
+    "nom": "Blandas",
+    "code": "30040",
+    "codesPostaux": [
+      "30770"
+    ],
+    "siren": "213000409",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 126
+  },
+  {
+    "nom": "Blauzac",
+    "code": "30041",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213000417",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1228
+  },
+  {
+    "nom": "Boisset-et-Gaujac",
+    "code": "30042",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213000425",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2591
+  },
+  {
+    "nom": "Boissières",
+    "code": "30043",
+    "codesPostaux": [
+      "30114"
+    ],
+    "siren": "213000433",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 590
+  },
+  {
+    "nom": "Bonnevaux",
+    "code": "30044",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213000441",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 80
+  },
+  {
+    "nom": "Bordezac",
+    "code": "30045",
+    "codesPostaux": [
+      "30160"
+    ],
+    "siren": "213000458",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 391
+  },
+  {
+    "nom": "Boucoiran-et-Nozières",
+    "code": "30046",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000466",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1000
+  },
+  {
+    "nom": "Bouillargues",
+    "code": "30047",
+    "codesPostaux": [
+      "30230"
+    ],
+    "siren": "213000474",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 6192
+  },
+  {
+    "nom": "Bouquet",
+    "code": "30048",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213000482",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 190
+  },
+  {
+    "nom": "Bourdic",
+    "code": "30049",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000490",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 368
+  },
+  {
+    "nom": "Bragassargues",
+    "code": "30050",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213000508",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 168
+  },
+  {
+    "nom": "Branoux-les-Taillades",
+    "code": "30051",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213000516",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1315
+  },
+  {
+    "nom": "Bréau-Mars",
+    "code": "30052",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "200082428",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 666
+  },
+  {
+    "nom": "Brignon",
+    "code": "30053",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000532",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 738
+  },
+  {
+    "nom": "Brouzet-lès-Quissac",
+    "code": "30054",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213000540",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 300
+  },
+  {
+    "nom": "Brouzet-lès-Alès",
+    "code": "30055",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213000557",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 676
+  },
+  {
+    "nom": "La Bruguière",
+    "code": "30056",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213000565",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 329
+  },
+  {
+    "nom": "Cabrières",
+    "code": "30057",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213000573",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1746
+  },
+  {
+    "nom": "La Cadière-et-Cambo",
+    "code": "30058",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213000581",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 223
+  },
+  {
+    "nom": "Le Cailar",
+    "code": "30059",
+    "codesPostaux": [
+      "30740"
+    ],
+    "siren": "213000599",
+    "codeEpci": "243000593",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2517
+  },
+  {
+    "nom": "Caissargues",
+    "code": "30060",
+    "codesPostaux": [
+      "30132"
+    ],
+    "siren": "213000607",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4097
+  },
+  {
+    "nom": "La Calmette",
+    "code": "30061",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000615",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2516
+  },
+  {
+    "nom": "Calvisson",
+    "code": "30062",
+    "codesPostaux": [
+      "30420"
+    ],
+    "siren": "213000623",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 6105
+  },
+  {
+    "nom": "Campestre-et-Luc",
+    "code": "30064",
+    "codesPostaux": [
+      "30770"
+    ],
+    "siren": "213000649",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 145
+  },
+  {
+    "nom": "Canaules-et-Argentières",
+    "code": "30065",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213000656",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 472
+  },
+  {
+    "nom": "Cannes-et-Clairan",
+    "code": "30066",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213000664",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 584
+  },
+  {
+    "nom": "La Capelle-et-Masmolène",
+    "code": "30067",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213000672",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 415
+  },
+  {
+    "nom": "Cardet",
+    "code": "30068",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213000680",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 910
+  },
+  {
+    "nom": "Carnas",
+    "code": "30069",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213000698",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 523
+  },
+  {
+    "nom": "Carsan",
+    "code": "30070",
+    "codesPostaux": [
+      "30130"
+    ],
+    "siren": "213000706",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 780
+  },
+  {
+    "nom": "Cassagnoles",
+    "code": "30071",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213000714",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 430
+  },
+  {
+    "nom": "Castelnau-Valence",
+    "code": "30072",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000722",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 485
+  },
+  {
+    "nom": "Castillon-du-Gard",
+    "code": "30073",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213000730",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1676
+  },
+  {
+    "nom": "Causse-Bégon",
+    "code": "30074",
+    "codesPostaux": [
+      "30750"
+    ],
+    "siren": "213000748",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 26
+  },
+  {
+    "nom": "Caveirac",
+    "code": "30075",
+    "codesPostaux": [
+      "30820"
+    ],
+    "siren": "213000755",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4351
+  },
+  {
+    "nom": "Cavillargues",
+    "code": "30076",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213000763",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 846
+  },
+  {
+    "nom": "Cendras",
+    "code": "30077",
+    "codesPostaux": [
+      "30480"
+    ],
+    "siren": "213000771",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1626
+  },
+  {
+    "nom": "Chambon",
+    "code": "30079",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213000797",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 260
+  },
+  {
+    "nom": "Chamborigaud",
+    "code": "30080",
+    "codesPostaux": [
+      "30530"
+    ],
+    "siren": "213000805",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 887
+  },
+  {
+    "nom": "Chusclan",
+    "code": "30081",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213000813",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 971
+  },
+  {
+    "nom": "Clarensac",
+    "code": "30082",
+    "codesPostaux": [
+      "30870"
+    ],
+    "siren": "213000821",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4280
+  },
+  {
+    "nom": "Codognan",
+    "code": "30083",
+    "codesPostaux": [
+      "30920"
+    ],
+    "siren": "213000839",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2458
+  },
+  {
+    "nom": "Codolet",
+    "code": "30084",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213000847",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 604
+  },
+  {
+    "nom": "Collias",
+    "code": "30085",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213000854",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1064
+  },
+  {
+    "nom": "Collorgues",
+    "code": "30086",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213000862",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 669
+  },
+  {
+    "nom": "Colognac",
+    "code": "30087",
+    "codesPostaux": [
+      "30460"
+    ],
+    "siren": "213000870",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 214
+  },
+  {
+    "nom": "Combas",
+    "code": "30088",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213000888",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 720
+  },
+  {
+    "nom": "Comps",
+    "code": "30089",
+    "codesPostaux": [
+      "30300"
+    ],
+    "siren": "213000896",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1720
+  },
+  {
+    "nom": "Concoules",
+    "code": "30090",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213000904",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 266
+  },
+  {
+    "nom": "Congénies",
+    "code": "30091",
+    "codesPostaux": [
+      "30111"
+    ],
+    "siren": "213000912",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1645
+  },
+  {
+    "nom": "Connaux",
+    "code": "30092",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213000920",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1698
+  },
+  {
+    "nom": "Conqueyrac",
+    "code": "30093",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213000938",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 108
+  },
+  {
+    "nom": "Corbès",
+    "code": "30094",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213000946",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 149
+  },
+  {
+    "nom": "Corconne",
+    "code": "30095",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213000953",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 621
+  },
+  {
+    "nom": "Cornillon",
+    "code": "30096",
+    "codesPostaux": [
+      "30630"
+    ],
+    "siren": "213000961",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 922
+  },
+  {
+    "nom": "Courry",
+    "code": "30097",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213000979",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 282
+  },
+  {
+    "nom": "Crespian",
+    "code": "30098",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213000987",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 465
+  },
+  {
+    "nom": "Cros",
+    "code": "30099",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213000995",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 246
+  },
+  {
+    "nom": "Cruviers-Lascours",
+    "code": "30100",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213001001",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 708
+  },
+  {
+    "nom": "Deaux",
+    "code": "30101",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213001019",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 650
+  },
+  {
+    "nom": "Dions",
+    "code": "30102",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213001027",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 537
+  },
+  {
+    "nom": "Domazan",
+    "code": "30103",
+    "codesPostaux": [
+      "30390"
+    ],
+    "siren": "213001035",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 956
+  },
+  {
+    "nom": "Domessargues",
+    "code": "30104",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001043",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 755
+  },
+  {
+    "nom": "Dourbies",
+    "code": "30105",
+    "codesPostaux": [
+      "30750"
+    ],
+    "siren": "213001050",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 137
+  },
+  {
+    "nom": "Durfort-et-Saint-Martin-de-Sossenac",
+    "code": "30106",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213001068",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 753
+  },
+  {
+    "nom": "Estézargues",
+    "code": "30107",
+    "codesPostaux": [
+      "30390"
+    ],
+    "siren": "213001076",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 605
+  },
+  {
+    "nom": "L'Estréchure",
+    "code": "30108",
+    "codesPostaux": [
+      "30124"
+    ],
+    "siren": "213001084",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 153
+  },
+  {
+    "nom": "Euzet",
+    "code": "30109",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213001092",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 472
+  },
+  {
+    "nom": "Flaux",
+    "code": "30110",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213001100",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 352
+  },
+  {
+    "nom": "Foissac",
+    "code": "30111",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213001118",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 444
+  },
+  {
+    "nom": "Fons",
+    "code": "30112",
+    "codesPostaux": [
+      "30730"
+    ],
+    "siren": "213001126",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1734
+  },
+  {
+    "nom": "Fons-sur-Lussan",
+    "code": "30113",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213001134",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 233
+  },
+  {
+    "nom": "Fontanès",
+    "code": "30114",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213001142",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 685
+  },
+  {
+    "nom": "Fontarèches",
+    "code": "30115",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213001159",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 250
+  },
+  {
+    "nom": "Fournès",
+    "code": "30116",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213001167",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1064
+  },
+  {
+    "nom": "Fourques",
+    "code": "30117",
+    "codesPostaux": [
+      "30300"
+    ],
+    "siren": "213001175",
+    "codeEpci": "243000585",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2719
+  },
+  {
+    "nom": "Fressac",
+    "code": "30119",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213001191",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 159
+  },
+  {
+    "nom": "Gagnières",
+    "code": "30120",
+    "codesPostaux": [
+      "30160"
+    ],
+    "siren": "213001209",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1089
+  },
+  {
+    "nom": "Gailhan",
+    "code": "30121",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213001217",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 275
+  },
+  {
+    "nom": "Gajan",
+    "code": "30122",
+    "codesPostaux": [
+      "30730"
+    ],
+    "siren": "213001225",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 727
+  },
+  {
+    "nom": "Gallargues-le-Montueux",
+    "code": "30123",
+    "codesPostaux": [
+      "30660"
+    ],
+    "siren": "213001233",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3592
+  },
+  {
+    "nom": "Le Garn",
+    "code": "30124",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213001241",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 234
+  },
+  {
+    "nom": "Garons",
+    "code": "30125",
+    "codesPostaux": [
+      "30128"
+    ],
+    "siren": "213001258",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5106
+  },
+  {
+    "nom": "Garrigues-Sainte-Eulalie",
+    "code": "30126",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213001266",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 748
+  },
+  {
+    "nom": "Gaujac",
+    "code": "30127",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213001274",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1065
+  },
+  {
+    "nom": "Générac",
+    "code": "30128",
+    "codesPostaux": [
+      "30510"
+    ],
+    "siren": "213001282",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4025
+  },
+  {
+    "nom": "Générargues",
+    "code": "30129",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213001290",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 696
+  },
+  {
+    "nom": "Génolhac",
+    "code": "30130",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213001308",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 822
+  },
+  {
+    "nom": "Goudargues",
+    "code": "30131",
+    "codesPostaux": [
+      "30630"
+    ],
+    "siren": "213001316",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1116
+  },
+  {
+    "nom": "La Grand-Combe",
+    "code": "30132",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213001324",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4891
+  },
+  {
+    "nom": "Le Grau-du-Roi",
+    "code": "30133",
+    "codesPostaux": [
+      "30240"
+    ],
+    "siren": "213001332",
+    "codeEpci": "243000650",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 8438
+  },
+  {
+    "nom": "Issirac",
+    "code": "30134",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213001340",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 313
+  },
+  {
+    "nom": "Jonquières-Saint-Vincent",
+    "code": "30135",
+    "codesPostaux": [
+      "30300"
+    ],
+    "siren": "213001357",
+    "codeEpci": "243000585",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3851
+  },
+  {
+    "nom": "Junas",
+    "code": "30136",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213001365",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1178
+  },
+  {
+    "nom": "Lamelouze",
+    "code": "30137",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213001373",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 138
+  },
+  {
+    "nom": "Langlade",
+    "code": "30138",
+    "codesPostaux": [
+      "30980"
+    ],
+    "siren": "213001381",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2265
+  },
+  {
+    "nom": "Lanuéjols",
+    "code": "30139",
+    "codesPostaux": [
+      "30750"
+    ],
+    "siren": "213001399",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 339
+  },
+  {
+    "nom": "Lasalle",
+    "code": "30140",
+    "codesPostaux": [
+      "30460"
+    ],
+    "siren": "213001407",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1129
+  },
+  {
+    "nom": "Laudun-l'Ardoise",
+    "code": "30141",
+    "codesPostaux": [
+      "30290"
+    ],
+    "siren": "213001415",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 6511
+  },
+  {
+    "nom": "Laval-Pradel",
+    "code": "30142",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213001423",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1096
+  },
+  {
+    "nom": "Laval-Saint-Roman",
+    "code": "30143",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213001431",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 213
+  },
+  {
+    "nom": "Lecques",
+    "code": "30144",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213001449",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 456
+  },
+  {
+    "nom": "Lédenon",
+    "code": "30145",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213001456",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1658
+  },
+  {
+    "nom": "Lédignan",
+    "code": "30146",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001464",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1502
+  },
+  {
+    "nom": "Lézan",
+    "code": "30147",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001472",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1557
+  },
+  {
+    "nom": "Liouc",
+    "code": "30148",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213001480",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 327
+  },
+  {
+    "nom": "Lirac",
+    "code": "30149",
+    "codesPostaux": [
+      "30126"
+    ],
+    "siren": "213001498",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 920
+  },
+  {
+    "nom": "Logrian-Florian",
+    "code": "30150",
+    "codesPostaux": [
+      "30610"
+    ],
+    "siren": "213001506",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 263
+  },
+  {
+    "nom": "Lussan",
+    "code": "30151",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213001514",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 517
+  },
+  {
+    "nom": "Les Mages",
+    "code": "30152",
+    "codesPostaux": [
+      "30960"
+    ],
+    "siren": "213001522",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2095
+  },
+  {
+    "nom": "Malons-et-Elze",
+    "code": "30153",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213001530",
+    "codeEpci": "200069128",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 120
+  },
+  {
+    "nom": "Mandagout",
+    "code": "30154",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213001548",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 379
+  },
+  {
+    "nom": "Manduel",
+    "code": "30155",
+    "codesPostaux": [
+      "30129"
+    ],
+    "siren": "213001555",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 7109
+  },
+  {
+    "nom": "Marguerittes",
+    "code": "30156",
+    "codesPostaux": [
+      "30320"
+    ],
+    "siren": "213001563",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 8467
+  },
+  {
+    "nom": "Martignargues",
+    "code": "30158",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213001589",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 437
+  },
+  {
+    "nom": "Le Martinet",
+    "code": "30159",
+    "codesPostaux": [
+      "30960"
+    ],
+    "siren": "213001597",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 759
+  },
+  {
+    "nom": "Maruéjols-lès-Gardon",
+    "code": "30160",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001605",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 269
+  },
+  {
+    "nom": "Massanes",
+    "code": "30161",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001613",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 207
+  },
+  {
+    "nom": "Massillargues-Attuech",
+    "code": "30162",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213001621",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 669
+  },
+  {
+    "nom": "Mauressargues",
+    "code": "30163",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001639",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 171
+  },
+  {
+    "nom": "Méjannes-le-Clap",
+    "code": "30164",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213001647",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 732
+  },
+  {
+    "nom": "Méjannes-lès-Alès",
+    "code": "30165",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213001654",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1218
+  },
+  {
+    "nom": "Meynes",
+    "code": "30166",
+    "codesPostaux": [
+      "30840"
+    ],
+    "siren": "213001662",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2572
+  },
+  {
+    "nom": "Meyrannes",
+    "code": "30167",
+    "codesPostaux": [
+      "30410"
+    ],
+    "siren": "213001670",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 787
+  },
+  {
+    "nom": "Mialet",
+    "code": "30168",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213001688",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 626
+  },
+  {
+    "nom": "Milhaud",
+    "code": "30169",
+    "codesPostaux": [
+      "30540"
+    ],
+    "siren": "213001696",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5987
+  },
+  {
+    "nom": "Molières-Cavaillac",
+    "code": "30170",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213001704",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 908
+  },
+  {
+    "nom": "Molières-sur-Cèze",
+    "code": "30171",
+    "codesPostaux": [
+      "30410"
+    ],
+    "siren": "213001712",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1197
+  },
+  {
+    "nom": "Monoblet",
+    "code": "30172",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213001720",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 774
+  },
+  {
+    "nom": "Mons",
+    "code": "30173",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213001738",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1765
+  },
+  {
+    "nom": "Montaren-et-Saint-Médiers",
+    "code": "30174",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213001746",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1388
+  },
+  {
+    "nom": "Montclus",
+    "code": "30175",
+    "codesPostaux": [
+      "30630"
+    ],
+    "siren": "213001753",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 181
+  },
+  {
+    "nom": "Montdardier",
+    "code": "30176",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213001761",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 188
+  },
+  {
+    "nom": "Monteils",
+    "code": "30177",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213001779",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 662
+  },
+  {
+    "nom": "Montfaucon",
+    "code": "30178",
+    "codesPostaux": [
+      "30150"
+    ],
+    "siren": "213001787",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1517
+  },
+  {
+    "nom": "Montfrin",
+    "code": "30179",
+    "codesPostaux": [
+      "30490"
+    ],
+    "siren": "213001795",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3129
+  },
+  {
+    "nom": "Montignargues",
+    "code": "30180",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213001803",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 563
+  },
+  {
+    "nom": "Montmirat",
+    "code": "30181",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213001811",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 487
+  },
+  {
+    "nom": "Montpezat",
+    "code": "30182",
+    "codesPostaux": [
+      "30730"
+    ],
+    "siren": "213001829",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1394
+  },
+  {
+    "nom": "Moulézan",
+    "code": "30183",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213001837",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 648
+  },
+  {
+    "nom": "Moussac",
+    "code": "30184",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213001845",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1563
+  },
+  {
+    "nom": "Mus",
+    "code": "30185",
+    "codesPostaux": [
+      "30121"
+    ],
+    "siren": "213001852",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1542
+  },
+  {
+    "nom": "Nages-et-Solorgues",
+    "code": "30186",
+    "codesPostaux": [
+      "30114"
+    ],
+    "siren": "213001860",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2107
+  },
+  {
+    "nom": "Navacelles",
+    "code": "30187",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213001878",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 302
+  },
+  {
+    "nom": "Ners",
+    "code": "30188",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213001886",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 751
+  },
+  {
+    "nom": "Nîmes",
+    "code": "30189",
+    "codesPostaux": [
+      "30000",
+      "30900"
+    ],
+    "siren": "213001894",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 148104
+  },
+  {
+    "nom": "Orsan",
+    "code": "30191",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213001910",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1194
+  },
+  {
+    "nom": "Orthoux-Sérignac-Quilhan",
+    "code": "30192",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213001928",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 438
+  },
+  {
+    "nom": "Parignargues",
+    "code": "30193",
+    "codesPostaux": [
+      "30730"
+    ],
+    "siren": "213001936",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 684
+  },
+  {
+    "nom": "Peyremale",
+    "code": "30194",
+    "codesPostaux": [
+      "30160"
+    ],
+    "siren": "213001944",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 275
+  },
+  {
+    "nom": "Peyrolles",
+    "code": "30195",
+    "codesPostaux": [
+      "30124"
+    ],
+    "siren": "213001951",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 33
+  },
+  {
+    "nom": "Le Pin",
+    "code": "30196",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213001969",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 467
+  },
+  {
+    "nom": "Les Plans",
+    "code": "30197",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213001977",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 287
+  },
+  {
+    "nom": "Les Plantiers",
+    "code": "30198",
+    "codesPostaux": [
+      "30122"
+    ],
+    "siren": "213001985",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 239
+  },
+  {
+    "nom": "Pommiers",
+    "code": "30199",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213001993",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 56
+  },
+  {
+    "nom": "Pompignan",
+    "code": "30200",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213002009",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 929
+  },
+  {
+    "nom": "Ponteils-et-Brésis",
+    "code": "30201",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213002017",
+    "codeEpci": "200069128",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 371
+  },
+  {
+    "nom": "Pont-Saint-Esprit",
+    "code": "30202",
+    "codesPostaux": [
+      "30130"
+    ],
+    "siren": "213002025",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 10600
+  },
+  {
+    "nom": "Portes",
+    "code": "30203",
+    "codesPostaux": [
+      "30530"
+    ],
+    "siren": "213002033",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 327
+  },
+  {
+    "nom": "Potelières",
+    "code": "30204",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213002041",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 369
+  },
+  {
+    "nom": "Pougnadoresse",
+    "code": "30205",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213002058",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 256
+  },
+  {
+    "nom": "Poulx",
+    "code": "30206",
+    "codesPostaux": [
+      "30320"
+    ],
+    "siren": "213002066",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4237
+  },
+  {
+    "nom": "Pouzilhac",
+    "code": "30207",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213002074",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 744
+  },
+  {
+    "nom": "Puechredon",
+    "code": "30208",
+    "codesPostaux": [
+      "30610"
+    ],
+    "siren": "213002082",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 47
+  },
+  {
+    "nom": "Pujaut",
+    "code": "30209",
+    "codesPostaux": [
+      "30131"
+    ],
+    "siren": "213002090",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3908
+  },
+  {
+    "nom": "Quissac",
+    "code": "30210",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213002108",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3373
+  },
+  {
+    "nom": "Redessan",
+    "code": "30211",
+    "codesPostaux": [
+      "30129"
+    ],
+    "siren": "213002116",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4181
+  },
+  {
+    "nom": "Remoulins",
+    "code": "30212",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213002124",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2260
+  },
+  {
+    "nom": "Revens",
+    "code": "30213",
+    "codesPostaux": [
+      "30750"
+    ],
+    "siren": "213002132",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 26
+  },
+  {
+    "nom": "Ribaute-les-Tavernes",
+    "code": "30214",
+    "codesPostaux": [
+      "30720"
+    ],
+    "siren": "213002140",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2057
+  },
+  {
+    "nom": "Rivières",
+    "code": "30215",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213002157",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 415
+  },
+  {
+    "nom": "Robiac-Rochessadoule",
+    "code": "30216",
+    "codesPostaux": [
+      "30160"
+    ],
+    "siren": "213002165",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 837
+  },
+  {
+    "nom": "Rochefort-du-Gard",
+    "code": "30217",
+    "codesPostaux": [
+      "30650"
+    ],
+    "siren": "213002173",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 7921
+  },
+  {
+    "nom": "Rochegude",
+    "code": "30218",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213002181",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 250
+  },
+  {
+    "nom": "Rogues",
+    "code": "30219",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213002199",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 99
+  },
+  {
+    "nom": "Roquedur",
+    "code": "30220",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213002207",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 265
+  },
+  {
+    "nom": "Roquemaure",
+    "code": "30221",
+    "codesPostaux": [
+      "30150"
+    ],
+    "siren": "213002215",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5526
+  },
+  {
+    "nom": "La Roque-sur-Cèze",
+    "code": "30222",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002223",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 177
+  },
+  {
+    "nom": "Rousson",
+    "code": "30223",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213002231",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4359
+  },
+  {
+    "nom": "La Rouvière",
+    "code": "30224",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213002249",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 635
+  },
+  {
+    "nom": "Sabran",
+    "code": "30225",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002256",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1600
+  },
+  {
+    "nom": "Saint-Alexandre",
+    "code": "30226",
+    "codesPostaux": [
+      "30130"
+    ],
+    "siren": "213002264",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1247
+  },
+  {
+    "nom": "Saint-Ambroix",
+    "code": "30227",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213002272",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3361
+  },
+  {
+    "nom": "Sainte-Anastasie",
+    "code": "30228",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213002280",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1742
+  },
+  {
+    "nom": "Saint-André-de-Majencoules",
+    "code": "30229",
+    "codesPostaux": [
+      "30570"
+    ],
+    "siren": "213002298",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 602
+  },
+  {
+    "nom": "Saint-André-de-Roquepertuis",
+    "code": "30230",
+    "codesPostaux": [
+      "30630"
+    ],
+    "siren": "213002306",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 591
+  },
+  {
+    "nom": "Saint-André-de-Valborgne",
+    "code": "30231",
+    "codesPostaux": [
+      "30940"
+    ],
+    "siren": "213002314",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 354
+  },
+  {
+    "nom": "Saint-André-d'Olérargues",
+    "code": "30232",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213002322",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 441
+  },
+  {
+    "nom": "Saint-Bauzély",
+    "code": "30233",
+    "codesPostaux": [
+      "30730"
+    ],
+    "siren": "213002330",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 668
+  },
+  {
+    "nom": "Saint-Bénézet",
+    "code": "30234",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213002348",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 287
+  },
+  {
+    "nom": "Saint-Bonnet-du-Gard",
+    "code": "30235",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213002355",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 833
+  },
+  {
+    "nom": "Saint-Bonnet-de-Salendrinque",
+    "code": "30236",
+    "codesPostaux": [
+      "30460"
+    ],
+    "siren": "213002363",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 120
+  },
+  {
+    "nom": "Saint-Brès",
+    "code": "30237",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213002371",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 666
+  },
+  {
+    "nom": "Saint-Bresson",
+    "code": "30238",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213002389",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 68
+  },
+  {
+    "nom": "Sainte-Cécile-d'Andorge",
+    "code": "30239",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213002397",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 550
+  },
+  {
+    "nom": "Saint-Césaire-de-Gauzignan",
+    "code": "30240",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213002405",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 389
+  },
+  {
+    "nom": "Saint-Chaptes",
+    "code": "30241",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213002413",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2004
+  },
+  {
+    "nom": "Saint-Christol-de-Rodières",
+    "code": "30242",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213002421",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 160
+  },
+  {
+    "nom": "Saint-Christol-lez-Alès",
+    "code": "30243",
+    "codesPostaux": [
+      "30380"
+    ],
+    "siren": "213002439",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 7115
+  },
+  {
+    "nom": "Saint-Clément",
+    "code": "30244",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213002447",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 350
+  },
+  {
+    "nom": "Saint-Côme-et-Maruéjols",
+    "code": "30245",
+    "codesPostaux": [
+      "30870"
+    ],
+    "siren": "213002454",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 795
+  },
+  {
+    "nom": "Sainte-Croix-de-Caderle",
+    "code": "30246",
+    "codesPostaux": [
+      "30460"
+    ],
+    "siren": "213002462",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 105
+  },
+  {
+    "nom": "Saint-Denis",
+    "code": "30247",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213002470",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 293
+  },
+  {
+    "nom": "Saint-Dézéry",
+    "code": "30248",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213002488",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 461
+  },
+  {
+    "nom": "Saint-Dionisy",
+    "code": "30249",
+    "codesPostaux": [
+      "30980"
+    ],
+    "siren": "213002496",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1085
+  },
+  {
+    "nom": "Saint-Étienne-de-l'Olm",
+    "code": "30250",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213002504",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 396
+  },
+  {
+    "nom": "Saint-Étienne-des-Sorts",
+    "code": "30251",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002512",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 539
+  },
+  {
+    "nom": "Saint-Félix-de-Pallières",
+    "code": "30252",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213002520",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 207
+  },
+  {
+    "nom": "Saint-Florent-sur-Auzonnet",
+    "code": "30253",
+    "codesPostaux": [
+      "30960"
+    ],
+    "siren": "213002538",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1188
+  },
+  {
+    "nom": "Saint-Geniès-de-Comolas",
+    "code": "30254",
+    "codesPostaux": [
+      "30150"
+    ],
+    "siren": "213002546",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2010
+  },
+  {
+    "nom": "Saint-Geniès-de-Malgoirès",
+    "code": "30255",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213002553",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3120
+  },
+  {
+    "nom": "Saint-Gervais",
+    "code": "30256",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002561",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 792
+  },
+  {
+    "nom": "Saint-Gervasy",
+    "code": "30257",
+    "codesPostaux": [
+      "30320"
+    ],
+    "siren": "213002579",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1994
+  },
+  {
+    "nom": "Saint-Gilles",
+    "code": "30258",
+    "codesPostaux": [
+      "30800"
+    ],
+    "siren": "213002587",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 14264
+  },
+  {
+    "nom": "Saint-Hilaire-de-Brethmas",
+    "code": "30259",
+    "codesPostaux": [
+      "30560"
+    ],
+    "siren": "213002595",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4616
+  },
+  {
+    "nom": "Saint-Hilaire-d'Ozilhan",
+    "code": "30260",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213002603",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1111
+  },
+  {
+    "nom": "Saint-Hippolyte-de-Caton",
+    "code": "30261",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213002611",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 260
+  },
+  {
+    "nom": "Saint-Hippolyte-de-Montaigu",
+    "code": "30262",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213002629",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 250
+  },
+  {
+    "nom": "Saint-Hippolyte-du-Fort",
+    "code": "30263",
+    "codesPostaux": [
+      "30170"
+    ],
+    "siren": "213002637",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3747
+  },
+  {
+    "nom": "Saint-Jean-de-Ceyrargues",
+    "code": "30264",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213002645",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 178
+  },
+  {
+    "nom": "Saint-Jean-de-Crieulon",
+    "code": "30265",
+    "codesPostaux": [
+      "30610"
+    ],
+    "siren": "213002652",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 244
+  },
+  {
+    "nom": "Saint-Jean-de-Maruéjols-et-Avéjan",
+    "code": "30266",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213002660",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 852
+  },
+  {
+    "nom": "Saint-Jean-de-Serres",
+    "code": "30267",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213002678",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 529
+  },
+  {
+    "nom": "Saint-Jean-de-Valériscle",
+    "code": "30268",
+    "codesPostaux": [
+      "30960"
+    ],
+    "siren": "213002686",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 599
+  },
+  {
+    "nom": "Saint-Jean-du-Gard",
+    "code": "30269",
+    "codesPostaux": [
+      "30270"
+    ],
+    "siren": "213002694",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2480
+  },
+  {
+    "nom": "Saint-Jean-du-Pin",
+    "code": "30270",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213002702",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1544
+  },
+  {
+    "nom": "Saint-Julien-de-Cassagnas",
+    "code": "30271",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213002710",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 726
+  },
+  {
+    "nom": "Saint-Julien-de-la-Nef",
+    "code": "30272",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213002728",
+    "codeEpci": "243400736",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 144
+  },
+  {
+    "nom": "Saint-Julien-de-Peyrolas",
+    "code": "30273",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213002736",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1470
+  },
+  {
+    "nom": "Saint-Julien-les-Rosiers",
+    "code": "30274",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213002744",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3436
+  },
+  {
+    "nom": "Saint-Just-et-Vacquières",
+    "code": "30275",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213002751",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 323
+  },
+  {
+    "nom": "Saint-Laurent-d'Aigouze",
+    "code": "30276",
+    "codesPostaux": [
+      "30220"
+    ],
+    "siren": "213002769",
+    "codeEpci": "243000650",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3613
+  },
+  {
+    "nom": "Saint-Laurent-de-Carnols",
+    "code": "30277",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002777",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 517
+  },
+  {
+    "nom": "Saint-Laurent-des-Arbres",
+    "code": "30278",
+    "codesPostaux": [
+      "30126"
+    ],
+    "siren": "213002785",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2981
+  },
+  {
+    "nom": "Saint-Laurent-la-Vernède",
+    "code": "30279",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213002793",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 689
+  },
+  {
+    "nom": "Saint-Laurent-le-Minier",
+    "code": "30280",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213002801",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 368
+  },
+  {
+    "nom": "Saint-Mamert-du-Gard",
+    "code": "30281",
+    "codesPostaux": [
+      "30730"
+    ],
+    "siren": "213002819",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1629
+  },
+  {
+    "nom": "Saint-Marcel-de-Careiret",
+    "code": "30282",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213002827",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 875
+  },
+  {
+    "nom": "Saint-Martial",
+    "code": "30283",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213002835",
+    "codeEpci": "243400736",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 187
+  },
+  {
+    "nom": "Saint-Martin-de-Valgalgues",
+    "code": "30284",
+    "codesPostaux": [
+      "30520"
+    ],
+    "siren": "213002843",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4603
+  },
+  {
+    "nom": "Saint-Maurice-de-Cazevieille",
+    "code": "30285",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213002850",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 758
+  },
+  {
+    "nom": "Saint-Maximin",
+    "code": "30286",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213002868",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 794
+  },
+  {
+    "nom": "Saint-Michel-d'Euzet",
+    "code": "30287",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002876",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 691
+  },
+  {
+    "nom": "Saint-Nazaire",
+    "code": "30288",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213002884",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1281
+  },
+  {
+    "nom": "Saint-Nazaire-des-Gardies",
+    "code": "30289",
+    "codesPostaux": [
+      "30610"
+    ],
+    "siren": "213002892",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 84
+  },
+  {
+    "nom": "Saint-Paulet-de-Caisson",
+    "code": "30290",
+    "codesPostaux": [
+      "30130"
+    ],
+    "siren": "213002900",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1858
+  },
+  {
+    "nom": "Saint-Paul-la-Coste",
+    "code": "30291",
+    "codesPostaux": [
+      "30480"
+    ],
+    "siren": "213002918",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 315
+  },
+  {
+    "nom": "Saint-Pons-la-Calm",
+    "code": "30292",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213002926",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 484
+  },
+  {
+    "nom": "Saint-Privat-de-Champclos",
+    "code": "30293",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213002934",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 347
+  },
+  {
+    "nom": "Saint-Privat-des-Vieux",
+    "code": "30294",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213002942",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5482
+  },
+  {
+    "nom": "Saint-Quentin-la-Poterie",
+    "code": "30295",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213002959",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3046
+  },
+  {
+    "nom": "Saint-Roman-de-Codières",
+    "code": "30296",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213002967",
+    "codeEpci": "243400736",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 161
+  },
+  {
+    "nom": "Saint-Sauveur-Camprieu",
+    "code": "30297",
+    "codesPostaux": [
+      "30750"
+    ],
+    "siren": "213002975",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 216
+  },
+  {
+    "nom": "Saint-Sébastien-d'Aigrefeuille",
+    "code": "30298",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213002983",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 508
+  },
+  {
+    "nom": "Saint-Siffret",
+    "code": "30299",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213002991",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1115
+  },
+  {
+    "nom": "Saint-Théodorit",
+    "code": "30300",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213003007",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 548
+  },
+  {
+    "nom": "Saint-Victor-des-Oules",
+    "code": "30301",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213003015",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 316
+  },
+  {
+    "nom": "Saint-Victor-la-Coste",
+    "code": "30302",
+    "codesPostaux": [
+      "30290"
+    ],
+    "siren": "213003023",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2205
+  },
+  {
+    "nom": "Saint-Victor-de-Malcap",
+    "code": "30303",
+    "codesPostaux": [
+      "30500"
+    ],
+    "siren": "213003031",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 836
+  },
+  {
+    "nom": "Salazac",
+    "code": "30304",
+    "codesPostaux": [
+      "30760"
+    ],
+    "siren": "213003049",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 202
+  },
+  {
+    "nom": "Salindres",
+    "code": "30305",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213003056",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3648
+  },
+  {
+    "nom": "Salinelles",
+    "code": "30306",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213003064",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 553
+  },
+  {
+    "nom": "Les Salles-du-Gardon",
+    "code": "30307",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213003072",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2455
+  },
+  {
+    "nom": "Sanilhac-Sagriès",
+    "code": "30308",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213003080",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 813
+  },
+  {
+    "nom": "Sardan",
+    "code": "30309",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213003098",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 352
+  },
+  {
+    "nom": "Saumane",
+    "code": "30310",
+    "codesPostaux": [
+      "30125"
+    ],
+    "siren": "213003106",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 289
+  },
+  {
+    "nom": "Sauve",
+    "code": "30311",
+    "codesPostaux": [
+      "30610"
+    ],
+    "siren": "213003114",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1925
+  },
+  {
+    "nom": "Sauveterre",
+    "code": "30312",
+    "codesPostaux": [
+      "30150"
+    ],
+    "siren": "213003122",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2029
+  },
+  {
+    "nom": "Sauzet",
+    "code": "30313",
+    "codesPostaux": [
+      "30190"
+    ],
+    "siren": "213003130",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 802
+  },
+  {
+    "nom": "Savignargues",
+    "code": "30314",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213003148",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 239
+  },
+  {
+    "nom": "Saze",
+    "code": "30315",
+    "codesPostaux": [
+      "30650"
+    ],
+    "siren": "213003155",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2104
+  },
+  {
+    "nom": "Sénéchas",
+    "code": "30316",
+    "codesPostaux": [
+      "30450"
+    ],
+    "siren": "213003163",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 241
+  },
+  {
+    "nom": "Sernhac",
+    "code": "30317",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213003171",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1794
+  },
+  {
+    "nom": "Servas",
+    "code": "30318",
+    "codesPostaux": [
+      "30340"
+    ],
+    "siren": "213003189",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 207
+  },
+  {
+    "nom": "Serviers-et-Labaume",
+    "code": "30319",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213003197",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 629
+  },
+  {
+    "nom": "Seynes",
+    "code": "30320",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213003205",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 165
+  },
+  {
+    "nom": "Sommières",
+    "code": "30321",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213003213",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5040
+  },
+  {
+    "nom": "Soudorgues",
+    "code": "30322",
+    "codesPostaux": [
+      "30460"
+    ],
+    "siren": "213003221",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 266
+  },
+  {
+    "nom": "Soustelle",
+    "code": "30323",
+    "codesPostaux": [
+      "30110"
+    ],
+    "siren": "213003239",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 121
+  },
+  {
+    "nom": "Souvignargues",
+    "code": "30324",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213003247",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 908
+  },
+  {
+    "nom": "Sumène",
+    "code": "30325",
+    "codesPostaux": [
+      "30440"
+    ],
+    "siren": "213003254",
+    "codeEpci": "243400736",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1291
+  },
+  {
+    "nom": "Tavel",
+    "code": "30326",
+    "codesPostaux": [
+      "30126"
+    ],
+    "siren": "213003262",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2031
+  },
+  {
+    "nom": "Tharaux",
+    "code": "30327",
+    "codesPostaux": [
+      "30430"
+    ],
+    "siren": "213003270",
+    "codeEpci": "200035129",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 52
+  },
+  {
+    "nom": "Théziers",
+    "code": "30328",
+    "codesPostaux": [
+      "30390"
+    ],
+    "siren": "213003288",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1053
+  },
+  {
+    "nom": "Thoiras",
+    "code": "30329",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213003296",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 442
+  },
+  {
+    "nom": "Tornac",
+    "code": "30330",
+    "codesPostaux": [
+      "30140"
+    ],
+    "siren": "213003304",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 947
+  },
+  {
+    "nom": "Tresques",
+    "code": "30331",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213003312",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1803
+  },
+  {
+    "nom": "Trèves",
+    "code": "30332",
+    "codesPostaux": [
+      "30750"
+    ],
+    "siren": "213003320",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 110
+  },
+  {
+    "nom": "Uchaud",
+    "code": "30333",
+    "codesPostaux": [
+      "30620"
+    ],
+    "siren": "213003338",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 4761
+  },
+  {
+    "nom": "Uzès",
+    "code": "30334",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213003346",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 8379
+  },
+  {
+    "nom": "Vabres",
+    "code": "30335",
+    "codesPostaux": [
+      "30460"
+    ],
+    "siren": "213003353",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 141
+  },
+  {
+    "nom": "Vallabrègues",
+    "code": "30336",
+    "codesPostaux": [
+      "30300"
+    ],
+    "siren": "213003361",
+    "codeEpci": "243000585",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1376
+  },
+  {
+    "nom": "Vallabrix",
+    "code": "30337",
+    "codesPostaux": [
+      "30700"
+    ],
+    "siren": "213003379",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 415
+  },
+  {
+    "nom": "Vallérargues",
+    "code": "30338",
+    "codesPostaux": [
+      "30580"
+    ],
+    "siren": "213003387",
+    "codeEpci": "200034379",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 135
+  },
+  {
+    "nom": "Val-d'Aigoual",
+    "code": "30339",
+    "codesPostaux": [
+      "30570"
+    ],
+    "siren": "200082725",
+    "codeEpci": "200034601",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1418
+  },
+  {
+    "nom": "Valliguières",
+    "code": "30340",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213003403",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 632
+  },
+  {
+    "nom": "Vauvert",
+    "code": "30341",
+    "codesPostaux": [
+      "30600"
+    ],
+    "siren": "213003411",
+    "codeEpci": "243000593",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 11774
+  },
+  {
+    "nom": "Vénéjan",
+    "code": "30342",
+    "codesPostaux": [
+      "30200"
+    ],
+    "siren": "213003429",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1264
+  },
+  {
+    "nom": "Verfeuil",
+    "code": "30343",
+    "codesPostaux": [
+      "30630"
+    ],
+    "siren": "213003437",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 597
+  },
+  {
+    "nom": "Vergèze",
+    "code": "30344",
+    "codesPostaux": [
+      "30310"
+    ],
+    "siren": "213003445",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 5621
+  },
+  {
+    "nom": "La Vernarède",
+    "code": "30345",
+    "codesPostaux": [
+      "30530"
+    ],
+    "siren": "213003452",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 350
+  },
+  {
+    "nom": "Vers-Pont-du-Gard",
+    "code": "30346",
+    "codesPostaux": [
+      "30210"
+    ],
+    "siren": "213003460",
+    "codeEpci": "243000684",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1773
+  },
+  {
+    "nom": "Vestric-et-Candiac",
+    "code": "30347",
+    "codesPostaux": [
+      "30600"
+    ],
+    "siren": "213003478",
+    "codeEpci": "243000569",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1342
+  },
+  {
+    "nom": "Vézénobres",
+    "code": "30348",
+    "codesPostaux": [
+      "30360"
+    ],
+    "siren": "213003486",
+    "codeEpci": "200066918",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1836
+  },
+  {
+    "nom": "Vic-le-Fesq",
+    "code": "30349",
+    "codesPostaux": [
+      "30260"
+    ],
+    "siren": "213003494",
+    "codeEpci": "200034411",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 571
+  },
+  {
+    "nom": "Le Vigan",
+    "code": "30350",
+    "codesPostaux": [
+      "30120"
+    ],
+    "siren": "213003502",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 3706
+  },
+  {
+    "nom": "Villeneuve-lès-Avignon",
+    "code": "30351",
+    "codesPostaux": [
+      "30400"
+    ],
+    "siren": "213003510",
+    "codeEpci": "248400251",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 12617
+  },
+  {
+    "nom": "Villevieille",
+    "code": "30352",
+    "codesPostaux": [
+      "30250"
+    ],
+    "siren": "213003528",
+    "codeEpci": "243000296",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1841
+  },
+  {
+    "nom": "Vissec",
+    "code": "30353",
+    "codesPostaux": [
+      "30770"
+    ],
+    "siren": "213003536",
+    "codeEpci": "243000270",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 67
+  },
+  {
+    "nom": "Montagnac",
+    "code": "30354",
+    "codesPostaux": [
+      "30350"
+    ],
+    "siren": "213003544",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 216
+  },
+  {
+    "nom": "Saint-Paul-les-Fonts",
+    "code": "30355",
+    "codesPostaux": [
+      "30330"
+    ],
+    "siren": "213003551",
+    "codeEpci": "200034692",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 1038
+  },
+  {
+    "nom": "Rodilhan",
+    "code": "30356",
+    "codesPostaux": [
+      "30230"
+    ],
+    "siren": "213003569",
+    "codeEpci": "243000643",
+    "codeDepartement": "30",
+    "codeRegion": "76",
+    "population": 2821
+  }
+]
