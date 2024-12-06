@@ -14,12 +14,12 @@
 			<input type="number" id="CP" name="CP" required>
 			<button type="submit" name="submit">Recevoir les communes</button>
 		</form>
-	</div>
+	</div> 
 
 
 	</div>
 			<?php
-				if (isset($_POST['submit'])) {
+				if (isset($_POST['submit'])) { // test
 					$dep = $_POST['CP'];
 
 					if ($dep <= 0) {
