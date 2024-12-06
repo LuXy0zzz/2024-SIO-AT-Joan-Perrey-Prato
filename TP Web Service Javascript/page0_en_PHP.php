@@ -25,26 +25,27 @@
 					if ($dep <= 0) {
 						echo "Veuillez entrer un nombre valide.";
 					} else {
-						// 1. URL du web service
+						// lienL du web service
 						$url = 'https://geo.api.gouv.fr/departements/'.$dep.'/communes?fields=nom,code,codesPostaux,siren,codeEpci,codeDepartement,codeRegion,population&format=json&geometry=centre';
 						
-						// 2. Utiliser file_get_contents pour obtenir les données JSON
+						// file_get_contents c pour obtenir les données JSON
 						$response = file_get_contents($url);
 
-						// 3. Convertir la réponse JSON en tableau PHP
+						// convertirssement de la réponse JSON en tableau PHP
 						$communes = json_decode($response, true);
 
-						// 4. Afficher le nombre de communes
+						// afficher le nombre de commune
 						echo '<br>';
 						echo 'Nombre de communes : ' . count($communes) . '<br>';
 						echo '<br>';
 
-						// 5. Afficher les informations sur les communes
-						foreach ($communes as $commune) {
-							echo 'Nom de la commune : ' . $commune['nom'] . ' -- ';
-							echo 'Code de la commune : ' . $commune['code'] . ' -- ';
-							echo 'Code postal de la commune : ' . implode(", ", $commune['codesPostaux']) . '<br>';
+						// afficher les informations sur les communes
+						for ($i = 0; $i < count($communes); $i++) {
+							echo 'Nom de la commune : ' . $communes[$i]['nom'] . ' -- ';
+							echo 'Code de la commune : ' . $communes[$i]['code'] . ' -- ';
+							echo 'Code postal de la commune : ' . implode(", ", $communes[$i]['codesPostaux']) . '<br>';
 						}
+						
 					}
 				}
 			?>
